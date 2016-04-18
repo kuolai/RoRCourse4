@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RoRcourse4 Mod3Solution by kuolai shu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+	<!-- #8 requirement: a navbar that scrolls away together with the page -->
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+          <div class="navbar-brand">
+		    <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+		<!-- #9 The dropdown menu should contain 3 items: Chicken, Beef, and Sushi -->        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li><a href="#" class="visible-xs hidden-md hidden-lg"> Chicken</a></li>
+            <li><a href="#" class="visible-xs hidden-md hidden-lg"> Beef</a></li>
+            <li><a href="#" class="visible-xs hidden-md hidden-lg"> Sushi</a></li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  	<!-- #10 requirement: must use a Bootstrap class to center text -->
+	<div class="container-fluid">
+    <p class="text-center">Our Menu</p>  
+	<div class="row">
+	<!-- #11 requirement: Create a single really tall section -->
+    <div class="col-md-12 col-sd-12 col-xs-12">
+      <section class="dish">
+        <p><span>Chicken</span><br>
+		 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+		</p>
+      </section>
+    </div>
+    </div> <!-- .raw -->
+    </div> <!-- .container -->
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
